@@ -3,15 +3,15 @@ version    : 0.1.1
 release    : 1
 source     :
     - http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.gz : 8c5ee28017fdc5b110c31cb76503e535e15e0c60b9a1f1e95ff6c018dd806022
-license    : LGPL-2.1 # CHECK ME
-component  : desktop.gnome 
-summary    : Python bindings for libnotify 
+license    : LGPL-2.1
+component  : programming.python
+summary    : Python bindings for libnotify
 description: |
-    Python bindings for libnotify 
+    Python bindings for libnotify
 builddeps  :
-        - pkgconfig(python2)
-        - pkgconfig(pygtk-2.0)
-        - pkgconfig(libnotify)
+    - pkgconfig(libnotify)
+    - pkgconfig(python-2.7)
+    - pkgconfig(pygtk-2.0)
 setup      : |
     %patch -p1 < $pkgfiles/libnotify07.patch
     %configure

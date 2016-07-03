@@ -2,22 +2,22 @@
     <Source>
         <Name>notify-python</Name>
         <Packager>
-            <Name>Shawn W Dunn</Name>
-            <Email>sfalken@cloverleaf-linux.org</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
-        <PartOf>desktop.gnome</PartOf>
+        <License>LGPL-2.1</License>
+        <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Python bindings for libnotify</Summary>
-        <Description xml:lang="en">Python bindings for libnotify 
+        <Description xml:lang="en">Python bindings for libnotify
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>notify-python</Name>
         <Summary xml:lang="en">Python bindings for libnotify</Summary>
-        <Description xml:lang="en">Python bindings for libnotify 
+        <Description xml:lang="en">Python bindings for libnotify
 </Description>
-        <PartOf>desktop.gnome</PartOf>
+        <PartOf>programming.python</PartOf>
         <Files>
             <Path fileType="library">/usr/lib/python2.7/site-packages/gtk-2.0/pynotify/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/gtk-2.0/pynotify/__init__.pyc</Path>
@@ -29,7 +29,7 @@
     <Package>
         <Name>notify-python-devel</Name>
         <Summary xml:lang="en">Development files for notify-python</Summary>
-        <Description xml:lang="en">Python bindings for libnotify 
+        <Description xml:lang="en">Python bindings for libnotify
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
@@ -41,11 +41,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2016-06-28</Date>
+            <Date>2016-07-03</Date>
             <Version>0.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Shawn W Dunn</Name>
-            <Email>sfalken@cloverleaf-linux.org</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
